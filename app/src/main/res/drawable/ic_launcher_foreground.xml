@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- ======================================================== -->
+    <!-- 1. GOLDEN ROYAL CROWN (TOP)                              -->
+    <!-- ======================================================== -->
+    <!-- Crown base shadow & rim -->
+    <path
+        android:fillColor="#B45309"
+        android:pathData="M34,36 L74,36 L70,39 L38,39 Z" />
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M36,35 L72,35 L70,37 L38,37 Z" />
+
+    <!-- Crown body & 5 spires -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M34,35 L32,23 L42,30 L54,18 L66,30 L76,23 L74,35 Z" />
+    <!-- Crown inner highlights -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M35,34 L33,25 L43,30 L54,21 L65,30 L75,25 L73,34 Z" />
+    <!-- Crown peak jewels -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M32,22 A2,2 0 1 1 32,22.01 M54,17 A2.2,2.2 0 1 1 54,17.01 M76,22 A2,2 0 1 1 76,22.01" />
+
+    <!-- ======================================================== -->
+    <!-- 2. SPORTS BALLS CLUSTER                                  -->
+    <!-- ======================================================== -->
+    <!-- Tennis Ball (Left) -->
+    <path
+        android:fillColor="#84CC16"
+        android:pathData="M26,52 A7,7 0 1 1 26,52.01" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:pathData="M23,48 Q27,52 23,56" />
+
+    <!-- Basketball (Left-Center) -->
+    <path
+        android:fillColor="#EA580C"
+        android:pathData="M39,49 A12,12 0 1 1 39,49.01" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1E293B"
+        android:strokeWidth="1.0"
+        android:pathData="M27,49 H51 M39,37 V61 M31,41 Q39,49 31,57 M47,41 Q39,49 47,57" />
+
+    <!-- American Football (Right-Center) -->
+    <path
+        android:fillColor="#78350F"
+        android:pathData="M65,40 Q82,47 77,59 Q69,63 59,51 Q60,42 65,40 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.7"
+        android:pathData="M66,45 L71,51 M67,46 L69,45 M69,48 L71,47 M70,50 L72,49" />
+
+    <!-- Baseball / Puck (Right edge) -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M81,53 A6,6 0 1 1 81,53.01" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#DC2626"
+        android:strokeWidth="0.7"
+        android:pathData="M78,49 Q81,53 78,57 M84,49 Q81,53 84,57" />
+
+    <!-- Soccer Ball (Center Hero) -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M54,49 A12,12 0 1 1 54,49.01" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0F172A"
+        android:strokeWidth="0.8"
+        android:pathData="M54,49 A12,12 0 1 1 54,49.01" />
+    <!-- Center pentagon -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M54,43 L58,46 L56,51 L52,51 L50,46 Z" />
+    <!-- Seam lines to outer rim -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0F172A"
+        android:strokeWidth="0.9"
+        android:pathData="M54,43 L54,37 M58,46 L64,44 M56,51 L60,57 M52,51 L48,57 M50,46 L44,44" />
+    <!-- Ball glossy highlight -->
+    <path
+        android:fillColor="#40FFFFFF"
+        android:pathData="M48,41 A5,3 45 0 1 52,38 A5,3 45 0 0 48,41 Z" />
+
+    <!-- ======================================================== -->
+    <!-- 3. TAHMİN ARENA GOLDEN SHIELD & EMBLEM (BOTTOM)           -->
+    <!-- ======================================================== -->
+    <!-- Shield Outer Dark Border -->
+    <path
+        android:fillColor="#0B132B"
+        android:strokeColor="#D97706"
+        android:strokeWidth="1.5"
+        android:pathData="M18,63 L54,58 L90,63 L86,81 L54,88 L22,81 Z" />
+
+    <!-- Shield Gold Inner Fill -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M20,64 L54,60 L88,64 L84,79 L54,86 L24,79 Z" />
+
+    <!-- Top Ribbon: TAHMİN (Silver/White 3D typography styling) -->
+    <!-- Letter T -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M24,67 H31 V69 H28.5 V75 H26.5 V69 H24 Z" />
+    <!-- Letter A -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M33,75 L36,67 H38 L41,75 H39 L38.3,73 H35.7 L35,75 Z M36.3,71.5 H37.7 L37,69 Z" />
+    <!-- Letter H -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M43,67 H45 V70 H48 V67 H50 V75 H48 V72 H45 V75 H43 Z" />
+    <!-- Letter M -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M52,67 H54.5 L56.5,71.5 L58.5,67 H61 V75 H59 V70 L57.2,74 H55.8 L54,70 V75 H52 Z" />
+    <!-- Letter İ -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M63,69 H65 V75 H63 Z M63,67 H65 V68 H63 Z" />
+    <!-- Letter N -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M67,67 H69.2 L72.8,72.5 V67 H74.8 V75 H72.6 L69,69.5 V75 H67 Z" />
+
+    <!-- Lower Banner: ARENA (Gold 3D typography) -->
+    <!-- Gold Banner Backing -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M27,77 L54,75 L81,77 L78,85 L54,87 L30,85 Z" />
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M28,78 L54,76 L80,78 L77,84 L54,86 L31,84 Z" />
+
+    <!-- Letter A -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M36,84 L38.5,78 H40 L42.5,84 H41 L40.4,82.5 H38.1 L37.5,84 Z M38.6,81 H39.9 L39.25,79.3 Z" />
+    <!-- Letter R -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M44,78 H47 Q49,78 49,79.5 Q49,81 47.5,81.3 L49.5,84 H48 L46.2,81.5 H45.3 V84 H44 Z M45.3,80.3 H46.8 Q47.7,80.3 47.7,79.5 Q47.7,78.8 46.8,78.8 H45.3 Z" />
+    <!-- Letter E -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M51,78 H55 V79.2 H52.4 V80.3 H54.6 V81.4 H52.4 V82.8 H55 V84 H51 Z" />
+    <!-- Letter N -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M57,78 H58.5 L61,82.2 V78 H62.3 V84 H60.8 L58.3,79.8 V84 H57 Z" />
+    <!-- Letter A -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M64,84 L66.5,78 H68 L70.5,84 H69 L68.4,82.5 H66.1 L65.5,84 Z M66.6,81 H67.9 L67.25,79.3 Z" />
+
+    <!-- Gold Stars at shield corners -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M23,65 L24,67 L26,67.3 L24.5,68.7 L25,71 L23,69.8 L21,71 L21.5,68.7 L20,67.3 L22,67 Z" />
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M85,65 L86,67 L88,67.3 L86.5,68.7 L87,71 L85,69.8 L83,71 L83.5,68.7 L82,67.3 L84,67 Z" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "TahminArena",
+  "description": "Nesine, Bilyoner ve Maçkolik benzeri sanal TP ile canlı iddaa simülasyonu ve gerçek zamanlı AI veri analizi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

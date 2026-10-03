@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Deep night stadium arena background with lighting -->
+    <path
+        android:fillColor="#070D22"
+        android:pathData="M0,0h108v108h-108z" />
+    <path
+        android:fillColor="#0D1A3F"
+        android:pathData="M0,0 L108,108 L0,108 Z" />
+
+    <!-- Floodlight beam effects -->
+    <path
+        android:fillColor="#152758"
+        android:pathData="M14,10 L54,54 L32,10 Z" />
+    <path
+        android:fillColor="#152758"
+        android:pathData="M94,10 L54,54 L76,10 Z" />
+
+    <!-- Stadium floodlight clusters -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M14,12 h12 v7 h-12 Z" />
+    <path
+        android:fillColor="#93C5FD"
+        android:pathData="M16,13 h8 v5 h-8 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18,14 h4 v3 h-4 Z" />
+
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M82,12 h12 v7 h-12 Z" />
+    <path
+        android:fillColor="#93C5FD"
+        android:pathData="M84,13 h8 v5 h-8 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M86,14 h4 v3 h-4 Z" />
+
+    <!-- Arena curved glowing light bands -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1D4ED8"
+        android:strokeWidth="3.0"
+        android:pathData="M10,48 Q54,30 98,48" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.6"
+        android:pathData="M12,50 Q54,32 96,50" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="0.8"
+        android:pathData="M18,53 Q54,37 90,53" />
+</vector>
